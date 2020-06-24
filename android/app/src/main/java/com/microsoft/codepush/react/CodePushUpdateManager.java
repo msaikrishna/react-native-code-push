@@ -164,6 +164,7 @@ public class CodePushUpdateManager {
         boolean isZip = false;
 
         // Download the file while checking if it is a zip and notifying client of progress.
+        //Fix for 4.4 devices
         try {
             URL downloadUrl = new URL(downloadUrlString);
             
